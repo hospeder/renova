@@ -1,0 +1,19 @@
+@import './colors.scss';
+@import './landing.scss';
+@import './mediaquery.scss';
+
+::selection{
+    background-color: $background-color;
+    color: white;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: $background-color;
+    border-radius: 10px;
+}
+a{
+    z-index: 1;
+    text-decoration: none;
+}

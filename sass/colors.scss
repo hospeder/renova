@@ -1,0 +1,19 @@
+$background-color: #153a50;
+$font-color:  #f9e8d0;
+$font-color-white: #f0f0f0;
+$font-color-navbar: #0e2836;
+$font-color-wall: #0a1a24ef;
+$font-roboto: 'Roboto', 'Open Sans', sans-serif;
+
+.btn{
+    border-radius: 10px;
+    z-index: 1;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 2px solid $font-color;
+    -webkit-box-shadow: -1px 0px 19px -2px rgba(249,232,208,1);
+    -moz-box-shadow: -1px 0px 19px -2px rgba(249,232,208,1);
+    box-shadow: -1px 0px 19px -2px rgba(249,232,208,1);
+    cursor: pointer;
+    margin: 30px 0;
+}
